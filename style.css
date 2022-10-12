@@ -1,8 +1,15 @@
-#navbar
+*{
+    font-family: monospace;
+}
+body{
+    margin: 0;
+    padding: 0;
+}#navbar
 {
 
     display: flex;
     justify-content: flex-end;
+    padding: 10px;
     position: fixed;
     height: 60px;
     top: 0;
@@ -13,12 +20,6 @@
 #navul
 {
     display: flex;
-}
-@media (max-width: 61.25em)
-{
-body {
-    font-size: 58%;
-}
 }
 li
 {
@@ -46,15 +47,24 @@ li
 
 #welcome-section
 {
-    background-color: #090e11;
+    background-image: url(./assets/bg.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(62deg
-, #090e11 0%, #181719 100%);
+}
+
+.divide{
+    display: flex;
+    gap: 50px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
 }
 h1
 {
@@ -92,7 +102,7 @@ h1:hover{
 #projects
 {
     
-    background-color: #474b4f;
+    background-color: #090e11;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,33 +129,17 @@ h1:hover{
     margin-bottom: 6rem;
   }
   
-  @media (max-width: 30.625em) {
-    #projects {
-      padding: 6rem 1rem;
-    }
-  
-   #projects-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  
 .project-image
 
   {
     
-    height: 250px;
+    height: 350px;
     width: 400px;
     object-fit: cover;
     background: var(--main-blue);
-    box-shadow: 0 12px 12px 0px black;
     border-radius: 15px;    
   }
 
-  .project-image:hover
-
-  {
-    height: 300px;     
-  }
 
 .project-title
 {
@@ -162,8 +156,9 @@ h1:hover{
         align-items: center;
         text-align: center;
         width: 100%;
-        height: 80vh;
+        height: 90vh;
     background-color: #090e11;
+
 }
 #con
 {
@@ -193,8 +188,8 @@ i
 }
 
 .code{
-    height: 155px;
-    width: 150px;
+    width: 100px;
+
 }
 
 .coffee{
@@ -203,9 +198,21 @@ i
 }
 
 .animation{
-    background-color: #000000;
+    height: 90vh;
+    background-image: url(./assets/bg.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+
+.dev{
+    width: 300px;
+}
+
+@media screen and (max-width:415px){
+    .navulcd{
+        display: flex;
+        flex-direction: column;
+    }
 }
