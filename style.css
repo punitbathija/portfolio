@@ -101,8 +101,7 @@ h1:hover{
 
 #projects
 {
-    
-    background-color: #090e11;
+    background-image: url(./assets/bg.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -215,4 +214,22 @@ i
         display: flex;
         flex-direction: column;
     }
+}
+.fact{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #090e11;
+}
+
+.cyan{
+    color: #00af9c;
+}
+
+.tap{
+    background-color: transparent;
+    color:#00af9c;
+    border: 1px solid white;
+    font-size: 25px;
+    background-color: #090e11;
 }
