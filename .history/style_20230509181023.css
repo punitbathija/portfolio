@@ -122,9 +122,14 @@ h1:hover{
 }
 #project-grid
 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 5rem;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -134,7 +139,6 @@ h1:hover{
 .project-image
 
   {
-    cursor: pointer;
     height: 350px;
     width: 400px;
     object-fit: contain;
@@ -145,7 +149,6 @@ h1:hover{
 
 .project-title
 {
-    cursor: pointer;
     font-family: monospace;
     color: white;
     font-size: 20px;

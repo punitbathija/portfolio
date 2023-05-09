@@ -1,13 +1,12 @@
 *{
     font-family: monospace;
-    cursor: default;
 }
 body{
     margin: 0;
     padding: 0;
 }#navbar
 {
-    cursor: default;
+
     display: flex;
     justify-content: flex-end;
     padding: 10px;
@@ -30,8 +29,6 @@ li
 }
 #navul a
 {
-    
-    cursor: pointer;
     color: white;
     font-family: monospace;
     font-weight: bolder;
@@ -41,7 +38,7 @@ li
 
 #navul a:hover
 {
-    color: black;
+    color: white;
     font-family: monospace;
     font-weight: bolder;
     font-size: 22px;
@@ -134,9 +131,9 @@ h1:hover{
 .project-image
 
   {
-    cursor: pointer;
-    height: 350px;
-    width: 400px;
+    
+    height: 500px;
+    width: 500px;
     object-fit: contain;
     background: var(--main-blue);
     border-radius: 15px;    
@@ -145,7 +142,6 @@ h1:hover{
 
 .project-title
 {
-    cursor: pointer;
     font-family: monospace;
     color: white;
     font-size: 20px;

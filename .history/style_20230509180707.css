@@ -24,14 +24,14 @@ body{
 }
 li
 {
+    color: red;
+
     display: block;
     font-size: 26px;
     padding: 12px;   
 }
 #navul a
 {
-    
-    cursor: pointer;
     color: white;
     font-family: monospace;
     font-weight: bolder;
@@ -41,7 +41,7 @@ li
 
 #navul a:hover
 {
-    color: black;
+    color: white;
     font-family: monospace;
     font-weight: bolder;
     font-size: 22px;
@@ -134,7 +134,6 @@ h1:hover{
 .project-image
 
   {
-    cursor: pointer;
     height: 350px;
     width: 400px;
     object-fit: contain;
@@ -145,7 +144,6 @@ h1:hover{
 
 .project-title
 {
-    cursor: pointer;
     font-family: monospace;
     color: white;
     font-size: 20px;

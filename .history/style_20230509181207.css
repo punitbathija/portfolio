@@ -146,6 +146,7 @@ h1:hover{
 .project-title
 {
     cursor: pointer;
+
     font-family: monospace;
     color: white;
     font-size: 20px;
